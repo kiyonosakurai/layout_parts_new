@@ -2,4 +2,31 @@
 
 /* 回答はここに書いてね */
 
+.q3_main {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+}
+
+th {/*table内のthに対して*/
+  padding: 10px;/*上下左右10pxずつ*/
+  color: #fff;
+  background-color: #24a;
+  border: solid #dedede 1px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+td {/*table内のtdに対して*/
+  padding: 10px;
+  border: solid #dedede 1px;
+}
+
+tr:nth-child(2n+1) td{
+  background-color: #ecf1f2;
+}
+
+tr:last-child {
+  border-top: dashed #000 2px;
+}
 /* 回答はここに書いてね */

@@ -1,5 +1,105 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
+ .m7 .m7-box{
+  width: 225px;
+}
+
+.m7_float .m7-box {
+  float: left;
+  box-sizing: border-box;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.m7_float .m7-box:first-child {
+  margin-left: 0;
+}
+
+.m7_table_box .m7_in_box {
+  display: table;
+}
+
+.m7_table_box .m7-box {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.m7_table_box .m7-box:first-child {
+  padding-left: 0;
+}
+
+.m7_table_box .m7_text {
+  font-size: 16px;
+}
+
+.m7_inlineblock .m7_in_box {
+  font-size: 0;
+}
+
+.m7_inlineblock .m7-box {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.m7_inlineblock .m7-box:first-child {
+  margin-left: 0;
+}
+
+.m7_flex .m7_in_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.m7_flex .m7-box {
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.m7_margin .m7_in_box {
+  font-size: 0;
+}
+
+.m7_margin .m7-box {
+  vertical-align: top;
+}
+
+.m7_margin .m7-box .is-stable {
+  display: inline-block;
+  width: 300px;
+}
+
+.m7_margin .m7-box.is-flexible {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
+.m7_text {
+  font-size: 16px;
+}
+
+.inline-margin{
+
+  display: inline-block;
+}
+
+.m7__box{
+  width: 300px;
+  display: inline-block;
+}
 /* 回答はここに書いてね */
