@@ -77,14 +77,13 @@
   z-index: 7;
 }
 
-.box8::before{
-
-}
-
 .box8::after{
+  position: absolute;
   background-color: #ffefd3;
   width: 20px;
   height: 20px;
+  right: 0px;
+  content: "";
 }
 
 .box9{
