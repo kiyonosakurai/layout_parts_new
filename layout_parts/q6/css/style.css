@@ -3,8 +3,7 @@
 /* 回答はここに書いてね */
 
 .q6__inbox{
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
   text-align: center;
   width: 70px;
   padding: 10px;
@@ -16,6 +15,7 @@
 }
 
 .is_margin{
+  display: block;
   margin: 0 auto;
 }
 
@@ -46,14 +46,21 @@
   background-color: #fff;
 }
 
-.fixed{
-  margin: 0 auto;
+.q6--position .q6__box{
   position: relative;
-  top: 40%;
 }
 
-.variable{
-  position: relative;
+.q6__box.is-stable .q6__box__inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.q6__box.is-flexible .q6__box__inner{
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
