@@ -13,13 +13,6 @@
   color: #fff;
 }
 
-.small_button{
-  border-radius: 3px;
-  font-size: 16px;
-  padding:4px 15px;
-  line-height: 26px;
-} 
-
 .common{
   background-color: #00bcd4;
 
@@ -41,6 +34,13 @@
   box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
   margin-left: 10px;
 }
+
+.small_button{
+  border-radius: 3px;
+  font-size: 16px;
+  padding:4px 15px;
+  line-height: 26px;
+} 
 
 .middle_button{
   border-radius: 5px;
