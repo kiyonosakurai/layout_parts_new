@@ -10,7 +10,7 @@
 .small_button{
   border-radius: 3px;
   font-size: 16px;
-  padding: 0 15px;
+  padding:4px 15px;
   line-height: 26px;
   color: #fff;
   text-decoration: none;
@@ -42,7 +42,7 @@
 .middle_button{
   border-radius: 5px;
   font-size: 20px;
-  padding: 0 20px;
+  padding: 4px 20px;
   line-height: 32px;
   color: #fff;
   text-decoration: none;
@@ -73,8 +73,8 @@
 .large_button {
   border-radius: 7px;
   font-size: 24px;
-  padding: 0 25px;
-  line-height: 38px;
+  padding: 4px 25px;
+  line-height: 37px;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
