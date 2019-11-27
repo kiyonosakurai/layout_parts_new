@@ -7,33 +7,36 @@
   clear: both;
 }
 
+.button{
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
 .small_button{
   border-radius: 3px;
   font-size: 16px;
   padding:4px 15px;
   line-height: 26px;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
 } 
 
-.small_common{
+.common{
   background-color: #00bcd4;
 
 }
 
-.small_error{
+.error{
   background-color: #ff4081;
   margin-left: 10px;
 }
 
-.small_disabled{
+.disabled{
   background-color: #e5e5e5;
   cursor: default;
   margin-left: 10px;
 }
 
-.small_shadow{
+.shadow{
   color: #222;
   box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
   margin-left: 10px;
@@ -44,30 +47,6 @@
   font-size: 20px;
   padding: 4px 20px;
   line-height: 32px;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.middle_common{
-  background-color: #00bcd4;
-}
-
-.middle_error{
-  background-color: #ff4081;
-  margin-left: 10px;
-}
-
-.middle_disabled{
-  background-color: #e5e5e5;
-  cursor: default;
-  margin-left: 10px;
-}
-
-.middle_shadow{
-  color: #222;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
-  margin-left: 10px;
 }
 
 .large_button {
@@ -75,30 +54,6 @@
   font-size: 24px;
   padding: 4px 25px;
   line-height: 37px;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.large_common{
-  background-color: #00bcd4;
-}
-
-.large_error{
-  background-color: #ff4081;
-  margin-left: 10px;
-}
-
-.large_disabled{
-  background-color: #e5e5e5;
-  cursor: default;
-  margin-left: 10px;
-}
-
-.large_shadow{
-  color: #222;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
-  margin-left: 10px;
 }
 
 .q8_form{
@@ -113,7 +68,7 @@
   margin-bottom: 20px;
 }
 
-.q8__form__title:before {
+.q8_form_title:before {
   position: absolute;
   height: 1px;
   width: 100%;
